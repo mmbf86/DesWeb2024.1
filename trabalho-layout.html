@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+  <body>
+    <header class="container-fluid text-center">
+        <img src="img/logoTechSolutions4.jpeg" alt="logoTechSolutions" id="logo" style="margin-bottom: 20px;">
+        <div class="card" id="rowpag1" style="margin-left: auto; margin-right: auto; width: 60%;">
+            <h1>Tech Solutions</h1>
+            <h2>Soluções tecnólogicas para sua ideia</h2><br>
+        </div>
+    </header>
+    <div class="d-flex justify-content-center align-items-center" id="nav1">
+        <div class="border" id="nav2" style="margin-top: 10px;">
+            <nav class="container-fluid text-center p-3">
+                <a href="#QuemSomos" class="btn btn-outline-light me-2 btn-lg">Sobre Nós</a>
+                <a href="#Servicos" class="btn btn-outline-light me-2 btn-lg">Serviços</a>
+                <a href="#Projetos" class="btn btn-outline-light me-2 btn-lg">Projetos</a>
+                <a href="#Contato" class="btn btn-outline-light me-2 btn-lg">Contato</a>
+            </nav>
+        </div>
+    </div>
+    <main class="container-fluid text-center">
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="img/wallpaperQuemSomos.jpeg" class="img-fluid rounded-start mx-auto d-block" 
+                    alt="Pessoas trabalhando ao redor de dispositivos eletrônicos" id="QuemSomos">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                        <h3 style="text-align: center;">Quem Somos</h3><br>
+                        <p>Fundada em 2015, a Tech Solutions é uma empresa inovadora 
+                            no campo da tecnologia da informação e serviços digitais. Nossa missão é transformar 
+                            ideias em realidade através de soluções tecnológicas avançadas e personalizadas.</p><br>
+                        <h4 style="text-align: center;">Objetivo da Empresa</h4><br>
+                        <p>Nosso objetivo é ser o parceiro de confiança para empresas e empreendedores que buscam 
+                            excelência e inovação. Estamos comprometidos em fornecer serviços de alta qualidade que 
+                            atendam às necessidades específicas de nossos clientes, ajudando-os a alcançar seus 
+                            objetivos de negócios com eficiência e eficácia.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                        <h3 style="text-align: center;">Serviços Prestados pela TechSolutions</h3><br>
+                        <p>Na TechSolutions, oferecemos uma gama de serviços tecnológicos para impulsionar o 
+                            seu negócio:</p>
+                        <ul>
+                            <li><strong>Computação em Nuvem</strong>: Soluções escaláveis e seguras para armazenamento, 
+                                processamento e gerenciamento de dados.</li>
+                            <li><strong>Cabeamento Estruturado</strong>: Infraestrutura de rede robusta para 
+                                comunicações eficientes.</li>
+                            <li><strong>Segurança Digital</strong>: Proteção avançada contra ameaças virtuais, 
+                                garantindo a integridade dos seus dados.</li>
+                            <li><strong>Desenvolvimento de Software</strong>: Criação de aplicativos personalizados 
+                                que atendem às necessidades específicas da sua empresa.</li>
+                        </ul>
+                        <p>Com a TechSolutions, você tem a garantia de serviços de alta qualidade que 
+                            acompanham as tendências mais recentes do mercado tecnológico.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="img/wallpaperServicos3.jpeg" class="img-fluid rounded-end mx-auto d-block" 
+                        alt="Imagem com referência a vários serviços prestados" id="Servicos">
+                </div>   
+                </div> 
+            </div>    
+        </div>
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="img/wallpaperProjetos1.jpeg" class="img-fluid rounded-start mx-auto d-block" 
+                    alt="Em cima de uma mesa, um mundo e projetos tecnologicos em miniatura" id="Projetos">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                        <h3 class="mb-4" style="text-align: center;">Venha Conhecer Nossos Projetos de Sucesso</h3><br>
+                        <ul class="project-list" style="text-align: center;">
+                          <li class="mb-2"><a href="projeto1.html" target="_blank">Carro Automatizado da Teska</a></li><br>
+                          <li class="mb-2"><a href="projeto2.html" target="_blank">Faceblock</a></li><br>
+                          <li class="mb-2"><a href="projeto3.html" target="_blank">CervaTech</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>     
+        </div>     
+    </main>
+    <aside class="container-fluid">
+        <div class="card" id="Contato">
+            <h1 class="text-center mt-3">Fale com a gente</h1>
+            <form class="needs-validation">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem:</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              </div>
+              <div class="mb-3">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="personType" id="individual" value="individual" required>
+                  <label class="form-check-label" for="individual">Pessoa Física</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="personType" id="legal" value="legal" required>
+                  <label class="form-check-label" for="legal">Pessoa Jurídica</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="file" class="form-label">Anexar PDF: <i class="fas fa-file-pdf fa-2x"></i></label>
+                <input type="file" class="form-control" id="file" name="file" accept=".pdf">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <h5 class="text-center mt-3">Acesse nossas redes</h5>
+            <div class="text-center mb-3" id="buttom1">
+                <a href="https://www.facebook.com" target="_blank" class="btn btn-primary mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" class="btn btn-danger mx-1">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com" target="_blank" class="btn btn-info mx-1">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://www.whatsapp.com" target="_blank" class="btn btn-success mx-1">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </aside>
+    <footer class="container-fluid bg-dark text-light py-3">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0">&copy; 2024 Tech Solutions Ltda. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
